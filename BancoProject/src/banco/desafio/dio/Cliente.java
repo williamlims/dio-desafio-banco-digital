@@ -10,6 +10,5 @@ public class Cliente {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	
-	
+		
 }

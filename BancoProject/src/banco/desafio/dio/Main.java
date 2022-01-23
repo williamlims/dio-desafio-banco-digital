@@ -3,9 +3,10 @@ package banco.desafio.dio;
 public class Main {
 
 	public static void main(String[] args) {
+		
 		Cliente william = new Cliente();
 		william.setNome("William");
-		
+				
 		Conta cc = new ContaCorrente(william);
 		Conta poupanca = new ContaPoupanca(william);
 		
@@ -14,7 +15,7 @@ public class Main {
 		
 		cc.imprimirExtrato();
 		poupanca.imprimirExtrato();
-
+		
 	}
 
 }
